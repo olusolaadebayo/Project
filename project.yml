@@ -27,10 +27,9 @@ metadata:
   name: webapp-svc
 spec:
   selector:
-    tier: webapp
+    app: webapp
   ports:
   - targetPort: 8080
-    port: 8080
+    port: 80
     nodePort: 30200
   type: NodePort
-
