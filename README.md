@@ -211,3 +211,5 @@ JOB
 =====
 - click on new item and create your pipeline (Groovy script)
 - Run the pipeline by clicking (Build Now)
+
+		
